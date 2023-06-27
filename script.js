@@ -26,11 +26,11 @@
 
                 setTimeout(function(){
                     alert('Draw!')
-                }, 10)
+                }, 20)
 
                 setTimeout(function(){
                     pcImgRock.classList.remove('pc-choice-border')
-                }, 11)
+                }, 21)
                 
             }
 
@@ -41,11 +41,11 @@
                 setTimeout(function()
                 {
                     alert('You lose!')
-                }, 10)
+                }, 20)
 
                 setTimeout(function(){
                     pcImgPaper.classList.remove('pc-choice-border')
-                }, 11)
+                }, 21)
 
             }
 
@@ -56,11 +56,11 @@
                 setTimeout(function()
                 {
                     alert('You win!')
-                }, 10)
+                }, 20)
 
                 setTimeout(function(){
                     pcImgScissors.classList.remove('pc-choice-border')
-                }, 11)
+                }, 21)
             }
         }
 
@@ -73,11 +73,11 @@
                 setTimeout(function()
                 {
                     alert('Draw!')
-                }, 10)
+                }, 20)
 
                 setTimeout(function(){
                     pcImgPaper.classList.remove('pc-choice-border')
-                }, 11)
+                }, 21)
             }
             
             if(computerChoice =='Scissors')
@@ -87,11 +87,11 @@
                 setTimeout(function()
                 {
                     alert('You lose!')
-                }, 10)
+                }, 20)
 
                 setTimeout(function(){
                     pcImgScissors.classList.remove('pc-choice-border')
-                }, 11)
+                }, 21)
             }
 
             if(computerChoice =='Rock')
@@ -100,11 +100,11 @@
 
                   setTimeout(function(){
                     alert('You win!')
-                }, 10)
+                }, 20)
                 
                 setTimeout(function(){
                     pcImgRock.classList.remove('pc-choice-border')
-                }, 11)
+                }, 21)
             }
         }
 
@@ -116,11 +116,11 @@
 
                 setTimeout(function(){
                   alert('You Lose!')
-              }, 10)
+              }, 20)
 
               setTimeout(function(){
                 pcImgRock.classList.remove('pc-choice-border')
-            }, 11)
+            }, 21)
             }
 
             if(computerChoice == 'Paper')
@@ -130,11 +130,11 @@
                 setTimeout(function()
                 {
                     alert('You win!')
-                }, 10)
+                }, 20)
 
                 setTimeout(function(){
                     pcImgPaper.classList.remove('pc-choice-border')
-                }, 11)
+                }, 21)
             }
 
             if(computerChoice =='Scissors')
@@ -144,11 +144,11 @@
                 setTimeout(function()
                 {
                     alert('Draw!')
-                }, 10)
+                }, 20)
 
                 setTimeout(function(){
                     pcImgScissors.classList.remove('pc-choice-border')
-                }, 11)
+                }, 21)
             }
         }
 
